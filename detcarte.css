@@ -1,0 +1,58 @@
+div {
+    /* border: 1px solid red; */
+}
+.detail{
+    height: 340px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;    
+}
+.img{
+   width: 40%;
+   margin-left: 20px;   
+}
+.desimg{
+   width: 60%; 
+   
+}
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #414141;
+    text-align: center;
+}
+.description{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(66, 62, 62);
+}
+.materiau{
+    /* border: 1px solid blue; */
+        
+    display: flex;
+}
+.gras{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 17%;
+}
+.buy-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 120px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #219150;
+}
+.carte{
+    display: flex;
+    justify-content: center;
+}
